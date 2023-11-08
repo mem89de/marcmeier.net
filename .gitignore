@@ -1,0 +1,10 @@
+# Hugo
+.hugo_build.lock
+public/
+resources/
+
+# IntelliJ
+.idea/
+
+# Blog
+deploy.sh

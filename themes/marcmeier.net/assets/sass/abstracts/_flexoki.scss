@@ -1,0 +1,94 @@
+// Flexoki color scheme by Steph Ango
+// https://stephango.com/flexoki
+
+// Color definitions
+$flexoki-black      : #100F0F;
+$flexoki-base-950   : #1C1B1A;
+$flexoki-base-900   : #282726;
+$flexoki-base-850   : #343331;
+$flexoki-base-800   : #403E3C;
+$flexoki-base-700   : #575653;
+$flexoki-base-600   : #6F6E69;
+$flexoki-base-500   : #878580;
+$flexoki-base-300   : #B7B5AC;
+$flexoki-base-200   : #CECDC3;
+$flexoki-base-150   : #DAD8CE;
+$flexoki-base-100   : #E6E4D9;
+$flexoki-base-50    : #F2F0E5;
+$flexoki-paper      : #FFFCF0;
+
+$flexoki-dark-red    : #AF3029;
+$flexoki-dark-orange : #BC5215;
+$flexoki-dark-yellow : #AD8301;
+$flexoki-dark-green  : #66800B;
+$flexoki-dark-cyan   : #24837B;
+$flexoki-dark-blue   : #205EA6;
+$flexoki-dark-purple : #5E409D;
+$flexoki-dark-magenta: #A02F6F;
+
+$flexoki-light-red    : #D14D41;
+$flexoki-light-orange : #DA702C;
+$flexoki-light-yellow : #D0A215;
+$flexoki-light-green  : #879A39;
+$flexoki-light-cyan   : #3AA99F;
+$flexoki-light-blue   : #4385BE;
+$flexoki-light-purple : #8B7EC8;
+$flexoki-light-magenta: #CE5D97;
+
+// Mappings
+// | Variable | UI                   | Syntax highlighting    |
+// | -------- | -------------------- | ---------------------- |
+// | `bg`     | Main background      |                        |
+// | `bg-2`   | Secondary background |                        |
+// | `ui`     | Borders              |                        |
+// | `ui-2`   | Hovered borders      |                        |
+// | `ui-3`   | Active borders       |                        |
+// | `tx-3`   | Faint text           | Comments               |
+// | `tx-2`   | Muted text           | Punctuation, operators |
+// | `tx`     | Primary text         |                        |
+// | `re`     | Error text           | Invalid, imports       |
+// | `or`     | Warning text         | Functions              |
+// | `ye`     |                      | Constants              |
+// | `gr`     | Success text         | Keywords               |
+// | `cy`     | Links, active states | Strings                |
+// | `bl`     |                      | Variables, attributes  |
+// | `pu`     |                      | Numbers                |
+// | `ma`     |                      | Language features      |
+
+// Light Theme Mappings
+$flexoki-bg     : $flexoki-paper;
+$flexoki-bg-2   : $flexoki-base-50;
+$flexoki-ui     : $flexoki-base-100;
+$flexoki-ui-2   : $flexoki-base-150;
+$flexoki-ui-3   : $flexoki-base-200;
+$flexoki-tx-3   : $flexoki-base-300;
+$flexoki-tx-2   : $flexoki-base-600;
+$flexoki-tx     : $flexoki-black;
+$flexoki-re     : $flexoki-light-red;
+$flexoki-or     : $flexoki-light-orange;
+$flexoki-ye     : $flexoki-light-yellow;
+$flexoki-gr     : $flexoki-light-green;
+$flexoki-cy     : $flexoki-light-cyan;
+$flexoki-bl     : $flexoki-light-blue;
+$flexoki-pu     : $flexoki-light-purple;
+$flexoki-ma     : $flexoki-light-magenta;
+
+// Dark Theme Mappings (Overwrites Light Theme Mappings)
+@if $dark-theme {
+    $flexoki-bg     : $flexoki-black;
+    $flexoki-bg-2   : $flexoki-base-950;
+    $flexoki-ui     : $flexoki-base-900;
+    $flexoki-ui-2   : $flexoki-base-850;
+    $flexoki-ui-3   : $flexoki-base-800;
+    $flexoki-tx-3   : $flexoki-base-700;
+    $flexoki-tx-2   : $flexoki-base-500;
+    $flexoki-tx     : $flexoki-base-200;
+    $flexoki-re     : $flexoki-dark-red;
+    $flexoki-or     : $flexoki-dark-orange;
+    $flexoki-ye     : $flexoki-dark-yellow;
+    $flexoki-gr     : $flexoki-dark-green;
+    $flexoki-cy     : $flexoki-dark-cyan;
+    $flexoki-bl     : $flexoki-dark-blue;
+    $flexoki-pu     : $flexoki-dark-purple;
+    $flexoki-ma     : $flexoki-dark-magenta;
+}

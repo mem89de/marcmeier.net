@@ -1,0 +1,21 @@
+goldmark:
+  extensions:
+    definitionList: false
+    footnote: false
+    linkify: false
+    linkifyProtocol: https
+    strikethrough: false
+    table: false
+    taskList: false
+    typographer: false
+  parser:
+    attribute:
+      block: false
+      title: true
+    autoHeadingID: true
+    autoHeadingIDType: github
+    wrapStandAloneImageWithinParagraph: true
+  renderer:
+    hardWraps: false
+    unsafe: true
+    xhtml: false

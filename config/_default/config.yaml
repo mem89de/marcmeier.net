@@ -1,0 +1,5 @@
+baseURL: 'https://marcmeier.net/'
+languageCode: 'de-de'
+title: 'Marcs Blog'
+
+theme: 'marcmeier.net'

@@ -1,0 +1,31 @@
+#! /bin/bash
+
+SSH_USER=""
+SSH_HOST=""
+SSH_DIRECTORY=""
+
+function main() {
+  info "Generating site using hugo"
+  hugo
+
+  info "Cleaning target directory"
+  ssh ${SSH_USER}@${SSH_HOST} "rm --recursive --force ${SSH_DIRECTORY}/*"
+
+  info "Uploading to ${SSH_HOST}"
+  scp -r public/* ${SSH_USER}@${SSH_HOST}:${SSH_DIRECTORY}
+}
+
+function info() {
+  MESSAGE=$1
+  log "INFO" "\033[0;32m" "$MESSAGE"
+}
+
+function log() {
+    LEVEL=$(printf '%5s' "$1")
+    COLOR=$2
+    MESSAGE=$3
+
+    echo -e "$(date +"%Y-%m-%d %H:%M:%S") ${COLOR}[$LEVEL]\033[0m ${MESSAGE}"
+}
+
+main
