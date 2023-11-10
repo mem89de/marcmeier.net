@@ -1,5 +1,5 @@
 +++
-title = 'Einleitung'
+title = 'Forbidden Lands Solo: Einleitung'
 date = 2023-11-09T20:09:52+01:00
 draft = true
 +++

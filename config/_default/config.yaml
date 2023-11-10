@@ -3,3 +3,4 @@ languageCode: 'de-de'
 title: 'Marcs Blog'
 
 theme: 'marcmeier.net'
+sectionPagesMenu: main
