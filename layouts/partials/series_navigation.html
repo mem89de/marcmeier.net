@@ -1,0 +1,8 @@
+Serie: <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a> <br>
+{{ if .PrevInSection  }}
+Vorgänger: <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a> <br>
+{{ end }}
+
+{{ if .NextInSection }}
+Nächster: <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a> <br>
+{{ end }}
