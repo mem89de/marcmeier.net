@@ -5,14 +5,22 @@ draft = true
 +++
 
 ## Session
-Tritt den Heimweg an
-Stößt dabei auf die Spuren der Rust Brothers.
-Folgt Spuren in entgegengesetzte Richtung eine Weile
+Er sieht einen Späher näher kommen.
+Sieht nach Rust Brother aus.
+Im Hintergrund sieht er einen Verband von Rust Brothers und Iron Guard
 
-Findet Zwerg.
-Wie tot.
-Überall Verletzungen, Schnittwunden, blaue Flecken.
+Der Späher entdeckt das tote Tier und untersucht es.
+Das Blut ist frisch, der Kadaver warm.
+Als Galame versucht, sich davonzuschleichen wird er entdeckt.
+Der Späher bläst das Horn.
 
-In den Boden getreten ein Amulett.
-Gleichschenkliges Dreieck überlagert mit einem Quadrat.
-Symbolisiert Huge, den Gott der Zwerge.
+Zwei Iron Guards ziehen sofort ihre Waffen und beginnen ihn zusammen mit dem Späher zu umzingeln.
+
+Galame flieht.
+Er rennt so schnell er kann.
+Der Späher schießt noch einige Pfeile hinterher, trifft ihn jedoch nicht.
+
+Südwest, Bogen nach Norden
+Als Galame nach einiger Zeit völlig erschöpft zum stehen kommt, ist er alleine.
+Die Iron Guard haben ihn nicht verfolgt.
+Er rastet über Mittag
