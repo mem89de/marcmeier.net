@@ -1,13 +1,13 @@
 +++
 title = 'Forbidden Lands Solo: Session 1'
-date = 2023-11-10T20:32:24+01:00
+date = 2023-10-11T20:32:24+01:00
 draft = true
 +++
-Einleitungstext
+
+Meine **erste Solo-Session** in den Forbidden Lands.
+Der Halbelf Galame ist auf der Jagd und ich mache meine ersten Erfahrungen mit dem Regelwerk.
 
 <!--more-->
-
-Noch ein paar Worte
 
 ## Session
 Galame ist auf der Jagd und stellt einem Hirsch nach.

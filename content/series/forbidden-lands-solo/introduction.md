@@ -1,8 +1,9 @@
 +++
 title = 'Forbidden Lands Solo: Einleitung'
-date = 2023-11-09T20:09:52+01:00
+date = 2023-10-08T20:09:52+01:00
 draft = true
 +++
+
 Dieser Artikel dient als Einleitung zu meiner Serie **Forbidden Lands Solo**.
 Ich möchte ein wenig darüber schreiben, was ich dabei Vorhabe.
 
