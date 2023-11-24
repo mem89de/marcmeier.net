@@ -1,3 +1,4 @@
+baseURL: 'https://draft.marcmeier.net/'
 buildFuture: true
 buildDrafts: true
 buildExpired: true
