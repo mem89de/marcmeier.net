@@ -58,6 +58,13 @@ Alcatra picanha drumstick, _frankfurter pork chop_ pastrami tongue pancetta veni
 Porchetta bacon venison, picanha tenderloin *frankfurter*hamburger ribeye leberkas fatback capicola jerky turkey ham rump.
 Ribeye prosciutto cupim beef ribs brisket.
 
+### Code
+Tongue sausage tail, burgdoggen flank buffalo drumstick fatback.
+Alcatra picanha drumstick, frankfurter pork chop pastrami tongue pancetta venison pork belly.
+You should try `mvn clean install` to build your maven project.
+Sausage ham hock chuck jerky chicken, andouille prosciutto.
+Pastrami hamburger picanha biltong bacon chislic, tri-tip bresaola kielbasa buffalo brisket rump tenderloin sausage.
+
 ### Mixed
 Porchetta pork ***belly short** loin*, salami rump prosciutto beef pastrami tail leberkas short ribs strip steak spare ribs drumstick.
 Pork belly sirloin _ham __fatback___ ribeye, ham hock salami rump chicken pork loin.

@@ -1,0 +1,19 @@
+@media (min-width: 50em) {
+    #grid-wrapper {
+        display: grid;
+        grid-template-columns: [left-border] 5fr [fliesstext-border] 2fr [right-border];
+
+        h1, h2, h3, h4, h5, h6 {
+            grid-column-start: left-border;
+            grid-column-end: right-border;
+        }
+        p {
+            grid-column-start: left-border;
+            grid-column-end: fliesstext-border;
+        }
+        aside {
+            grid-column-start: fliesstext-border;
+            grid-column-end: right-border;
+        }
+    }
+}

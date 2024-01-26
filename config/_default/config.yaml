@@ -1,5 +1,6 @@
 baseURL: 'https://marcmeier.net/'
-languageCode: 'de-de'
+languageCode: 'de-DE'
+DefaultContentLanguage: "de"
 title: 'Marcs Blog'
 
-theme: 'marcmeier.net'
+sectionPagesMenu: main

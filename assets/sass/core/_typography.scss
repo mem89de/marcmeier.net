@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+    color: $flexoki-gr;
+}
+em, strong {
+    color: $flexoki-ye;
+}
+
+code {
+    background-color: $flexoki-bg-2;
+    border: 1px solid $flexoki-ui;
+    border-radius: 0.3em;
+    padding: 0.25em 0.5em;
+}
